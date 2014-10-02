@@ -15,15 +15,7 @@ namespace SeleniumCamp.Pages
     public class InnerPage : HomePage
     {
         public void IClickInnerPage()
-        {
-            innerBtn.Click();
-        }
-
-        public string UsernameXPATh
-        {
-            get { return USER_NAME; }
-        }
-
+     
         public string EmailXPATh
         {
             get { return EMAIL; }

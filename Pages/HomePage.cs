@@ -17,9 +17,7 @@ public class HomePage:BaseObject
         [FindsBy(How = How.CssSelector, Using = HOME_BTN)]
         public IWebElement homeBtn;
 
-        [FindsBy(How = How.CssSelector, Using = INNER_BTN)]
-        public IWebElement innerBtn;
-
+      
         [FindsBy(How = How.CssSelector, Using = SCROLL_BTN)]
         public IWebElement scrollBtn;
 
