@@ -18,8 +18,8 @@ public class HomePage:BaseObject
         public IWebElement homeBtn;
 
         [FindsBy(How = How.CssSelector, Using = INNER_BTN)]
-        public IWebElement innerBtn;
-
+        public IWebElement innerBfdfdtn;
+fdf
         [FindsBy(How = How.CssSelector, Using = SCROLL_BTN)]
         public IWebElement scrollBtn;
 

@@ -8,6 +8,11 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.PageObjects;
 using System.Configuration;
 using SeleniumCamp.Core;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.PageObjects;
+using System.Configuration;
+using SeleniumCamp.Core;
 
 namespace SeleniumCamp.Pages
 {
