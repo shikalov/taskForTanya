@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fa6db7b1-32e3-4f4d-8844-57acc9d5f6f8" name="ashykalov@ASHYKALOV 2014-02-19 15:31:16" runUser="UNIVERSE\ashykalov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c216b85b-6c41-41ce-860e-e7c85b876cf1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ashykalov_ASHYKALOV 2014-02-19 15_31_16">
+      <DeploymentItem filename="D:\Selenium_test\selenium-dotnet-2.39.0\net35\WebDriver.Support.dll" />
+      <DeploymentItem filename="D:\storuq\TestProject1\StoryQ-2.0.5\StoryQ.dll" />
+      <DeploymentItem filename="D:\Selenium_test\selenium-dotnet-2.39.0\net35\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="D:\Selenium_test\selenium-dotnet-2.39.0\net35\WebDriver.dll" />
+    </Deployment>
+    <Execution parallelTestCount="0">
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-02-19T15:31:16.6934911+02:00" queuing="2014-02-19T15:31:16.7584976+02:00" start="2014-02-19T15:31:16.7634981+02:00" finish="2014-02-19T15:31:32.8421058+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="scrolling" storage="d:\seleniumcamp\seleniumcamp\bin\debug\seleniumcamp.dll" id="a8dd23c1-66d9-1c71-1820-56350b5ffeee">
+      <Execution id="907e8ea5-462c-4644-b1c2-7349f3a0a5c9" />
+      <TestMethod codeBase="D:/SeleniumCamp/SeleniumCamp/bin/Debug/SeleniumCamp.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumCamp.Test.StoryQTestClass, SeleniumCamp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="scrolling" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a8dd23c1-66d9-1c71-1820-56350b5ffeee" executionId="907e8ea5-462c-4644-b1c2-7349f3a0a5c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="907e8ea5-462c-4644-b1c2-7349f3a0a5c9" testId="a8dd23c1-66d9-1c71-1820-56350b5ffeee" testName="scrolling" computerName="ASHYKALOV" duration="00:00:15.9158914" startTime="2014-02-19T15:31:16.7644982+02:00" endTime="2014-02-19T15:31:32.8311047+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="907e8ea5-462c-4644-b1c2-7349f3a0a5c9">
+      <Output>
+        <StdOut>Story is Selenium camp
+  In order to Benefit
+  As a Role
+  I want Test_Feature_2
+
+      With scenario Basic authorization windows
+        Given I am on the home page(http://91.234.37.131:4000/) =&gt; Passed
+          And I click scrolling page                            =&gt; Passed
+          And I scrolllg page right                             =&gt; Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

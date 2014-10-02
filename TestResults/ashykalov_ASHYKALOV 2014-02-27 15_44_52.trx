@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0ae1eb4a-819d-4726-a96e-d594eed664a2" name="ashykalov@ASHYKALOV 2014-02-27 15:44:52" runUser="UNIVERSE\ashykalov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c216b85b-6c41-41ce-860e-e7c85b876cf1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ashykalov_ASHYKALOV 2014-02-27 15_44_52">
+      <DeploymentItem filename="D:\Selenium_test\selenium-dotnet-2.39.0\net35\WebDriver.Support.dll" />
+      <DeploymentItem filename="D:\storuq\TestProject1\StoryQ-2.0.5\StoryQ.dll" />
+      <DeploymentItem filename="D:\Selenium_test\selenium-dotnet-2.39.0\net35\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="D:\Selenium_test\selenium-dotnet-2.39.0\net35\WebDriver.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-02-27T15:44:52.9512490+02:00" queuing="2014-02-27T15:44:53.0362490+02:00" start="2014-02-27T15:44:53.0402490+02:00" finish="2014-02-27T15:45:05.3022490+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="basic_auth_windows" storage="d:\seleniumcamp\seleniumcamp\bin\debug\seleniumcamp.dll" id="e8659641-e63e-02f2-0e50-7227c6aedbed">
+      <Execution id="d3edb9cb-cfc7-4f75-ac36-0a37d5b7ac3c" />
+      <TestMethod codeBase="D:/SeleniumCamp/SeleniumCamp/bin/Debug/SeleniumCamp.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumCamp.Test.Tests, SeleniumCamp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="basic_auth_windows" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e8659641-e63e-02f2-0e50-7227c6aedbed" executionId="d3edb9cb-cfc7-4f75-ac36-0a37d5b7ac3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d3edb9cb-cfc7-4f75-ac36-0a37d5b7ac3c" testId="e8659641-e63e-02f2-0e50-7227c6aedbed" testName="basic_auth_windows" computerName="ASHYKALOV" duration="00:00:12.0815911" startTime="2014-02-27T15:44:53.0472490+02:00" endTime="2014-02-27T15:45:05.2842490+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3edb9cb-cfc7-4f75-ac36-0a37d5b7ac3c">
+      <Output>
+        <StdOut>Story is Basic authorization window
+  In order to Benefit
+  As a Role
+  I want Test basic authorization window
+
+      With scenario Basic authorization windows
+        Given I am on the home page(http://91.234.37.131:4000/) =&gt; Passed
+          And I fill credentials and log in                     =&gt; Passed
+          And successfully authorized                           =&gt; Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
