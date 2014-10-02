@@ -28,11 +28,7 @@ namespace SeleniumCamp.Test
         {
             page = new InnerPage().GetInnerPage(driverInstance);
             var steps = new Steps(page);
-
-            new Story("Selenium Camp")
-                .InOrderTo("Benefit")
-                .AsA("Role")
-                .IWant("Test scrolling")
+IWant("Test scrolling")
                             .WithScenario("Testing of scrolling")
                             .Given(IAmOnTheHomePage, "http://91.234.37.131:4000/")
                             .And(IClickScrollingPage)
