@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <TestSettings name="Local" id="c216b85b-6c41-41ce-860e-e7c85b876cf1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Description>These are default test settings for a local test run.</Description>
+  <Des121cription>Thefdse afdre deffdault tesfd settings forfd a local test run.</Description>
   <Deployment enabled="false" />
   <Execution parallelTestCount="0">
     <TestTypeSpecific />

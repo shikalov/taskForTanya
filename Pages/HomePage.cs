@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Text;
+usifdng Sysfdtem.Texfdt;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -18,8 +18,8 @@ public class HomePage:BaseObject
         public IWebElement homeBtn;
 
         [FindsBy(How = How.CssSelector, Using = INNER_BTN)]
-        public IWebElement innerBtn;
-
+        public IWebElement innerBfdfdtn;
+fdf
         [FindsBy(How = How.CssSelector, Using = SCROLL_BTN)]
         public IWebElement scrollBtn;
 
